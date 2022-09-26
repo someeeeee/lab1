@@ -8,7 +8,7 @@ int main()
 	int  j, i, sum=0;
 	int m, n=0;
 	int** arr=NULL;
-	printf("Введите количество строк и  столбцов: ");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г±ГІГ°Г®ГЄ ГЁ  Г±ГІГ®Г«ГЎГ¶Г®Гў: ");
 	scanf_s("%d", &m);
 	
 	arr = (int**)malloc(m * sizeof(int*));
@@ -17,7 +17,7 @@ int main()
 		arr[i] = (int*)malloc(m * sizeof(int));
 	}
 
-	printf("массив : \n");
+	printf("Г¬Г Г±Г±ГЁГў : \n");
 	for (i = 0; i < m; i++)
 	{
 		for (j = 0; j < m; j++)
@@ -34,7 +34,7 @@ int main()
 		{
 			sum = sum + arr[i][j];
 		}
-		printf("Сумма элементов в строке: %d \n ", sum);
+		printf("Г‘ГіГ¬Г¬Г  ГЅГ«ГҐГ¬ГҐГ­ГІГ®Гў Гў Г±ГІГ°Г®ГЄГҐ: %d \n ", sum);
 		sum = 0;
 	}
 	getchar();
